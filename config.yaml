@@ -1,0 +1,15 @@
+package: "com.mirror.news.debug"  # The package name of your app
+test_runner: "com.mirror.news.util.TestAndroidRunner"  # The test runner for your tests
+device: "RZ8R71GA8AR"  # The device ID from 'adb devices' command
+class:  # List of test classes to run
+  - "com.reachplc.test.main.BottomNavBackStackUiTest"
+  - "com.reachplc.test.main.SampleMainMirrorTest"
+  - "com.reachplc.test.myaccount.MyAccountFragmentTest"
+  - "com.reachplc.test.mynews.LatestNewsFragmentTest"
+  - "com.reachplc.test.premium.PremiumBottomIconTest"
+  - "com.reachplc.test.premium.PremiumTabTest"
+  - "com.reachplc.test.teaser.TeaserCommentsTest"
+  - "com.reachplc.test.teaser.TeaserViewTest"
+  - "com.reachplc.test.topic.GeneralErrorViewTest"
+  - "com.reachplc.test.topic.TopicPercentageViewedTrackerTest"
+  - "com.reachplc.test.topic.TrackTopicOpenedTest"

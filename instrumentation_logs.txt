@@ -1,0 +1,597 @@
+kaustubhd@LT-MBP-016 Espresso % python3 run_test.py
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.main.BottomNavBackStackUiTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.main.BottomNavBackStackUiTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.main.BottomNavBackStackUiTest:
+INSTRUMENTATION_STATUS: test=shouldOpenMyNews
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=shouldOpenMyNews
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=openAllTabsRotateAndRollback
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=openAllTabsRotateAndRollback
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=openMyNewsThenSavedArticlesThenRollback
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=openMyNewsThenSavedArticlesThenRollback
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=openMyNewsAndPressBack
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=openMyNewsAndPressBack
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=openMyNewsThenRotate
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=openMyNewsThenRotate
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=openMyNewsThenRotateAndPressBack
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=openMyNewsThenRotateAndPressBack
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=rotateAndExpectSameScreen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.BottomNavBackStackUiTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=rotateAndExpectSameScreen
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 152.631
+
+OK (8 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.main.SampleMainMirrorTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.main.SampleMainMirrorTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.SampleMainMirrorTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.main.SampleMainMirrorTest:
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.main.SampleMainMirrorTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 28.332
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.myaccount.MyAccountFragmentTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.myaccount.MyAccountFragmentTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.myaccount.MyAccountFragmentTest:
+INSTRUMENTATION_STATUS: test=when_logged_show_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_logged_show_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=when_not_verified_hide_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_not_verified_hide_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=should_react_to_logout_event
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=should_react_to_logout_event
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=when_not_logged_hide_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_not_logged_hide_my_details_and_user_info
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=should_react_to_login_event
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.myaccount.MyAccountFragmentTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=should_react_to_login_event
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 110.001
+
+OK (5 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.mynews.LatestNewsFragmentTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.mynews.LatestNewsFragmentTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.mynews.LatestNewsFragmentTest:
+INSTRUMENTATION_STATUS: test=when_not_logged_show_default_empty_screen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_not_logged_show_default_empty_screen
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=when_logged_and_new_user_show_no_content_if_no_content_available
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_logged_and_new_user_show_no_content_if_no_content_available
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=when_logged_and_migrated_user_show_migrated_screen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.mynews.LatestNewsFragmentTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=when_logged_and_migrated_user_show_migrated_screen
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 61.723
+
+OK (3 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.premium.PremiumBottomIconTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.premium.PremiumBottomIconTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumBottomIconTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.premium.PremiumBottomIconTest:
+INSTRUMENTATION_STATUS: test=whenPremiumEnabledThenIconShouldBeVisibleOnBottomBar
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumBottomIconTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenPremiumEnabledThenIconShouldBeVisibleOnBottomBar
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumBottomIconTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenPremiumDisabledThenIconShouldNotBeVisibleOnBottomBar
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumBottomIconTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenPremiumDisabledThenIconShouldNotBeVisibleOnBottomBar
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 42.859
+
+OK (2 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.premium.PremiumTabTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.premium.PremiumTabTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumTabTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.premium.PremiumTabTest:
+INSTRUMENTATION_STATUS: test=whenPremiumEnabledContentShouldBeShown
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumTabTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenPremiumEnabledContentShouldBeShown
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumTabTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenPremiumPuzzleNotEnabledShouldNotBeDisplayed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.premium.PremiumTabTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenPremiumPuzzleNotEnabledShouldNotBeDisplayed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 44.86
+
+OK (2 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.teaser.TeaserCommentsTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.teaser.TeaserCommentsTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.teaser.TeaserCommentsTest:
+INSTRUMENTATION_STATUS: test=whenCommentsDisabledForFlavor_shouldHideTextField
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenCommentsDisabledForFlavor_shouldHideTextField
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenArticleHasComments_shouldShowTextField
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenArticleHasComments_shouldShowTextField
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenCommentsDisabledForArticle_shouldDisplayOff
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenCommentsDisabledForArticle_shouldDisplayOff
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenArticleHasNoComments_shouldHideTextField
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserCommentsTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenArticleHasNoComments_shouldHideTextField
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 69.717
+
+OK (4 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.teaser.TeaserViewTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.teaser.TeaserViewTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserViewTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.teaser.TeaserViewTest:
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.teaser.TeaserViewTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bottomNavIsDisplayed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 11.456
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.topic.GeneralErrorViewTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.topic.GeneralErrorViewTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.topic.GeneralErrorViewTest:
+INSTRUMENTATION_STATUS: test=whenLoaded_shouldHideLoadingAndShowData
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenLoaded_shouldHideLoadingAndShowData
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenUnknownError_shouldRefresh
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenUnknownError_shouldRefresh
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenOffline_shouldDisplayNoConnectionView
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenOffline_shouldDisplayNoConnectionView
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenLoadingShouldDisplayLoadingView
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenLoadingShouldDisplayLoadingView
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=whenError_shouldDisplayUnknownError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.GeneralErrorViewTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=whenError_shouldDisplayUnknownError
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 39.429
+
+OK (5 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.topic.TopicPercentageViewedTrackerTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.topic.TopicPercentageViewedTrackerTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.TopicPercentageViewedTrackerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.topic.TopicPercentageViewedTrackerTest:
+INSTRUMENTATION_STATUS: test=testScreenOpen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.TopicPercentageViewedTrackerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testScreenOpen
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 31.532
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+
+Running command: adb -s RZ8R71GA8AR shell am instrument -w -r -e class com.reachplc.test.topic.TrackTopicOpenedTest com.mirror.news.debug.test/com.mirror.news.util.TestAndroidRunner
+Test class 'com.reachplc.test.topic.TrackTopicOpenedTest' completed successfully.
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.TrackTopicOpenedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.reachplc.test.topic.TrackTopicOpenedTest:
+INSTRUMENTATION_STATUS: test=onTopicDetail_shouldTrackEvent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.reachplc.test.topic.TrackTopicOpenedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=onTopicDetail_shouldTrackEvent
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 666.591
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+
+kaustubhd@LT-MBP-016 Espresso % 
